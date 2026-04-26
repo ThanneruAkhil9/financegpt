@@ -1,20 +1,26 @@
-"""
 rag.py — Retrieval Augmented Generation pipeline for FinanceGPT
+Uses Groq for LLM + HuggingFace Inference API for embeddings (no torch, no fastembed)
 """
  
 import os
+import requests
+import numpy as np
 from groq import Groq
 from qdrant_client import QdrantClient
-from fastembed import TextEmbedding
 from dotenv import load_dotenv
  
 load_dotenv()
  
 # ─── Constants ───────────────────────────────────────────────
-EMBED_MODEL  = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-COLLECTION   = "financegpt"
-TOP_K        = 5          # how many docs to retrieve
-GROQ_MODEL   = "llama-3.3-70b-versatile"
+COLLECTION  = "financegpt"
+TOP_K       = 5
+GROQ_MODEL  = "llama-3.3-70b-versatile"
+ 
+# Free embedding API — HuggingFace Inference API (no token needed for small models)
+HF_EMBED_URL = (
+    "https://api-inference.huggingface.co/pipeline/feature-extraction/"
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+)
  
 SEBI_DISCLAIMER = (
     "\n\n---\n⚠️ **SEBI Disclaimer:** This is for educational purposes only and does not "
@@ -40,16 +46,13 @@ What you MUST NOT do:
  
 Confidence levels to use:
 - ✅ High Confidence: For well-established facts (tax slabs, how SIPs work, SEBI rules)
-- ⚠️ Verify Recommended: For numbers that may have changed (interest rates, tax rates)  
+- ⚠️ Verify Recommended: For numbers that may have changed (interest rates, tax rates)
 - 📞 Consult a CA/Expert: For complex personal tax situations
  
 Format your answers clearly with bullet points or numbered steps when explaining processes.
 """
  
-# ─── Load models once at startup (not on every request) ──────
-print("Loading embedding model...")
-_embed_model = TextEmbedding(model_name=EMBED_MODEL)
- 
+# ─── Clients (initialized once at startup) ───────────────────
 print("Connecting to Qdrant...")
 _qdrant = QdrantClient(
     url=os.getenv("QDRANT_URL"),
@@ -59,10 +62,47 @@ _qdrant = QdrantClient(
 print("Connecting to Groq...")
 _groq = Groq(api_key=os.getenv("GROQ_API_KEY"))
  
+# Optional HuggingFace token (set HF_TOKEN env var to avoid rate limits)
+_hf_token = os.getenv("HF_TOKEN", "")
+_hf_headers = {"Authorization": f"Bearer {_hf_token}"} if _hf_token else {}
  
+print("✅ FinanceGPT RAG pipeline ready (lightweight mode)")
+ 
+ 
+# ─── Embedding ───────────────────────────────────────────────
+def get_embedding(text: str) -> list[float]:
+    """
+    Get embedding vector via HuggingFace Inference API.
+    Free, no local model download, no RAM spike.
+    """
+    try:
+        response = requests.post(
+            HF_EMBED_URL,
+            headers=_hf_headers,
+            json={"inputs": text, "options": {"wait_for_model": True}},
+            timeout=30,
+        )
+        response.raise_for_status()
+        result = response.json()
+ 
+        # HF returns list of lists for batched input — flatten if needed
+        if isinstance(result[0], list):
+            vector = np.mean(result, axis=0).tolist()
+        else:
+            vector = result
+ 
+        return vector
+ 
+    except Exception as e:
+        print(f"Embedding error: {e}")
+        # Return zero vector as fallback (384 dims for MiniLM)
+        return [0.0] * 384
+ 
+ 
+# ─── Retrieval ───────────────────────────────────────────────
 def retrieve(query: str, top_k: int = TOP_K) -> list[dict]:
     """Embed the query and fetch top_k matching documents from Qdrant."""
-    vector = list(_embed_model.embed([query]))[0].tolist()
+    vector = get_embedding(query)
     results = _qdrant.search(
         collection_name=COLLECTION,
         query_vector=vector,
@@ -77,11 +117,12 @@ def build_context(docs: list[dict]) -> str:
     parts = []
     for i, doc in enumerate(docs, 1):
         parts.append(
-            f"[Doc {i} | {doc['domain']} | {doc['title']}]\n{doc['content']}"
+            f"[Doc {i} | {doc.get('domain', '')} | {doc.get('title', '')}]\n{doc.get('content', '')}"
         )
     return "\n\n".join(parts)
  
  
+# ─── Generation ──────────────────────────────────────────────
 def generate_answer(
     query: str,
     conversation_history: list[dict],
@@ -114,17 +155,17 @@ Answer based on the context above. If the context doesn't fully cover the questi
  
     messages.append({"role": "user", "content": user_message})
  
-    # Step 4: Call Groq (with fallback model if requested)
+    # Step 4: Call Groq
     try:
         model = GROQ_MODEL
         if use_fallback:
-            model = "gemma2-9b-it"  # Groq's Gemma as fallback
+            model = "gemma2-9b-it"
  
         response = _groq.chat.completions.create(
             model=model,
             messages=messages,
             max_tokens=1024,
-            temperature=0.3,  # low temperature = more factual
+            temperature=0.3,
         )
         answer = response.choices[0].message.content
  
