@@ -1,0 +1,19 @@
+# render.yaml — Render deployment config for FinanceGPT backend
+# Render reads this file automatically from your GitHub repo
+
+services:
+  - type: web
+    name: financegpt-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false           # set this in Render dashboard
+      - key: QDRANT_URL
+        sync: false           # set this in Render dashboard
+      - key: QDRANT_API_KEY
+        sync: false           # set this in Render dashboard
+      - key: DB_PATH
+        value: /opt/render/project/src/financegpt.db

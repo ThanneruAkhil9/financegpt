@@ -1,0 +1,65 @@
+# .github/workflows/deploy.yml
+# Auto-deploys backend to Render and frontend to HuggingFace Spaces
+# on every push to main branch
+
+name: Deploy FinanceGPT
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  # ── Deploy Backend to Render ──────────────────────────────
+  deploy-backend:
+    name: Deploy Backend to Render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deploy Hook
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+          echo "✅ Render deploy triggered"
+
+  # ── Deploy Frontend to HuggingFace Spaces ────────────────
+  deploy-frontend:
+    name: Deploy Frontend to HuggingFace Spaces
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Push to HuggingFace Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "ci@financegpt.in"
+          git config --global user.name "FinanceGPT CI"
+
+          # Clone the HuggingFace Space repo
+          git clone https://user:$HF_TOKEN@huggingface.co/spaces/${{ secrets.HF_USERNAME }}/${{ secrets.HF_SPACE_NAME }} hf_space
+
+          # Copy frontend files to HuggingFace Space
+          cp frontend/app.py hf_space/app.py
+          cp requirements.txt hf_space/requirements.txt
+
+          # Create README for HuggingFace Space
+          cat > hf_space/README.md << 'EOF'
+          ---
+          title: FinanceGPT
+          emoji: 💰
+          colorFrom: blue
+          colorTo: green
+          sdk: streamlit
+          sdk_version: 1.32.0
+          app_file: app.py
+          pinned: false
+          ---
+          # FinanceGPT 🇮🇳
+          India's Multilingual Finance Assistant
+          EOF
+
+          # Push to HuggingFace
+          cd hf_space
+          git add .
+          git diff --staged --quiet || git commit -m "Deploy from GitHub Actions"
+          git push
+          echo "✅ HuggingFace Space updated"

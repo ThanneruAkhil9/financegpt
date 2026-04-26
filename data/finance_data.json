@@ -1,0 +1,386 @@
+[
+  {
+    "id": "pf_001",
+    "domain": "personal_finance",
+    "language": "en",
+    "title": "What is a Budget and Why It Matters",
+    "content": "A budget is a plan for how you spend your money every month. In India, a simple budgeting rule is the 50-30-20 rule: spend 50% of your income on needs like rent, food, and EMIs; 30% on wants like eating out and entertainment; and 20% on savings and investments. For someone earning ₹30,000 per month, this means ₹15,000 for needs, ₹9,000 for wants, and ₹6,000 must be saved or invested. Budgeting helps you avoid debt, build an emergency fund, and work toward financial goals like buying a house or retiring early.",
+    "keywords": ["budget", "budgeting", "50-30-20", "spending", "savings", "monthly plan"]
+  },
+  {
+    "id": "pf_002",
+    "domain": "personal_finance",
+    "language": "en",
+    "title": "Emergency Fund — Your Financial Safety Net",
+    "content": "An emergency fund is money kept aside only for real emergencies — job loss, medical crisis, major car or home repair. The rule is to keep 3 to 6 months of your monthly expenses in a liquid place like a savings account or liquid mutual fund. If your monthly expenses are ₹25,000, your emergency fund should be ₹75,000 to ₹1,50,000. Never invest emergency money in stocks or long-term FDs — you need it available immediately. Build this before starting any other investment.",
+    "keywords": ["emergency fund", "safety net", "liquid", "job loss", "medical", "savings account"]
+  },
+  {
+    "id": "pf_003",
+    "domain": "personal_finance",
+    "language": "en",
+    "title": "SIP — Systematic Investment Plan Explained Simply",
+    "content": "A SIP (Systematic Investment Plan) means investing a fixed amount in a mutual fund every month automatically. For example, investing ₹2,000 every month in a Nifty 50 index fund. The biggest advantage is rupee cost averaging — when the market falls, your ₹2,000 buys more units; when it rises, your existing units are worth more. Over 10-15 years, SIPs in equity funds have historically given 12-15% annual returns in India. You can start a SIP with as little as ₹100 per month. It is the most beginner-friendly way to invest in mutual funds.",
+    "keywords": ["SIP", "systematic investment plan", "rupee cost averaging", "mutual fund", "monthly investment", "₹100"]
+  },
+  {
+    "id": "pf_004",
+    "domain": "personal_finance",
+    "language": "te",
+    "title": "SIP అంటే ఏమిటి",
+    "content": "SIP అంటే Systematic Investment Plan. ప్రతి నెల ఒక నిర్ణీత మొత్తాన్ని mutual fund లో invest చేయడం. ఉదాహరణకు, ప్రతి నెల ₹500 invest చేస్తే, market పడినప్పుడు ఎక్కువ units కొనుగోలు చేయవచ్చు, market పెరిగినప్పుడు మీ investment విలువ పెరుగుతుంది. దీన్ని rupee cost averaging అంటారు. ₹100 తో కూడా SIP మొదలు పెట్టవచ్చు. 10-15 సంవత్సరాలు invest చేస్తే మీ డబ్బు 3-4 రెట్లు పెరుగుతుంది.",
+    "keywords": ["SIP", "SIP ante enti", "mutual fund Telugu", "investment Telugu", "monthly investment Telugu"]
+  },
+  {
+    "id": "pf_005",
+    "domain": "personal_finance",
+    "language": "hi",
+    "title": "SIP क्या होता है",
+    "content": "SIP यानी Systematic Investment Plan — हर महीने एक तय रकम mutual fund में डालना। मान लीजिए आप हर महीने ₹1,000 डालते हैं। जब market गिरता है, आपको ज़्यादा units मिलती हैं; जब बढ़ता है, आपकी units की value बढ़ती है। इसे rupee cost averaging कहते हैं। सिर्फ ₹100 से SIP शुरू हो सकती है। अगर 15 साल तक ₹2,000 प्रति महीने डालें, तो 12% return पर करीब ₹10 लाख बन सकते हैं।",
+    "keywords": ["SIP kya hai", "SIP Hindi", "mutual fund Hindi", "हर महीने investment", "rupee cost averaging"]
+  },
+  {
+    "id": "mf_001",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "What is NAV in Mutual Funds",
+    "content": "NAV stands for Net Asset Value. It is the price of one unit of a mutual fund. NAV = (Total assets of the fund - liabilities) / number of units. If a fund has ₹100 crore in assets and 1 crore units, NAV is ₹100. NAV is calculated every day after market closes at 4 PM. A lower NAV does not mean cheaper or better — it just means fewer units were sold. What matters is the fund's performance percentage, not its NAV number.",
+    "keywords": ["NAV", "net asset value", "mutual fund price", "unit price", "fund valuation"]
+  },
+  {
+    "id": "mf_002",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "Expense Ratio — The Hidden Cost of Mutual Funds",
+    "content": "Expense ratio is the annual fee an AMC charges to manage your mutual fund. It is deducted daily from the fund's NAV automatically — you never pay it separately. For example, if a fund's expense ratio is 1%, and you invest ₹1 lakh, you pay ₹1,000 per year as fees. SEBI has set limits: equity funds cannot charge more than 2.25%, debt funds 2%. Index funds typically have very low expense ratios of 0.1% to 0.2% making them cost-efficient. Always compare expense ratios when choosing between two similar funds.",
+    "keywords": ["expense ratio", "AMC fee", "fund management fee", "TER", "total expense ratio", "hidden cost"]
+  },
+  {
+    "id": "mf_003",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "ELSS — Tax Saving Mutual Funds",
+    "content": "ELSS stands for Equity Linked Savings Scheme. These are equity mutual funds that give you tax deduction under Section 80C up to ₹1.5 lakh per year. ELSS has the shortest lock-in period among all 80C investments — just 3 years. Compared to PPF (15 years) or NSC (5 years), ELSS gives you liquidity faster. Since ELSS invests in stocks, the potential return is higher — historically 12-15% per year — but it comes with market risk. Best suited for someone in the 20-30% tax bracket who can stay invested for at least 5 years.",
+    "keywords": ["ELSS", "equity linked savings scheme", "tax saving mutual fund", "80C", "lock in 3 years", "tax deduction"]
+  },
+  {
+    "id": "mf_004",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "Types of Mutual Funds in India",
+    "content": "Mutual funds in India are broadly of three types: Equity funds invest in stocks and are best for long-term goals (5+ years) — examples are large cap, mid cap, small cap, flexi cap, and index funds. Debt funds invest in bonds and FDs and are better for short-term goals (1-3 years) — examples are liquid funds, short duration funds, and gilt funds. Hybrid funds mix both equity and debt — examples are balanced advantage funds and aggressive hybrid funds. SEBI has categorized all funds into 36 official categories to make comparison easier.",
+    "keywords": ["types of mutual funds", "equity fund", "debt fund", "hybrid fund", "large cap", "mid cap", "small cap", "liquid fund"]
+  },
+  {
+    "id": "mf_005",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "Direct vs Regular Mutual Fund Plans",
+    "content": "Every mutual fund comes in two plans: Direct and Regular. In a Direct plan, you invest directly with the AMC — no distributor, no commission. In a Regular plan, you invest through a broker or agent who earns a commission (typically 0.5% to 1% per year) which is deducted from your returns. Over 20 years, this difference of 1% compounding can reduce your final corpus by 20-25%. Always choose Direct plans if you are investing on your own through platforms like Zerodha Coin, Groww, or MF Central.",
+    "keywords": ["direct plan", "regular plan", "mutual fund direct", "commission", "AMC", "distributor", "Groww", "Zerodha Coin"]
+  },
+  {
+    "id": "mf_006",
+    "domain": "mutual_funds",
+    "language": "en",
+    "title": "Top AMCs in India",
+    "content": "AMC stands for Asset Management Company — these are companies that manage mutual funds. The largest AMCs in India by AUM (Assets Under Management) are: SBI Mutual Fund, HDFC Mutual Fund, ICICI Prudential Mutual Fund, Nippon India Mutual Fund, and Axis Mutual Fund. A larger AUM does not always mean better performance. When comparing AMCs, look at consistency of returns over 5-10 years, fund manager experience, expense ratios, and whether the fund has beaten its benchmark index consistently.",
+    "keywords": ["AMC", "asset management company", "SBI mutual fund", "HDFC mutual fund", "ICICI mutual fund", "AUM", "fund manager"]
+  },
+  {
+    "id": "stock_001",
+    "domain": "stock_market",
+    "language": "en",
+    "title": "NSE and BSE — India's Two Stock Exchanges",
+    "content": "India has two main stock exchanges. BSE (Bombay Stock Exchange) is the oldest in Asia, established in 1875, and tracks 5,000+ companies. Its benchmark index is Sensex (30 large companies). NSE (National Stock Exchange) was established in 1992 and is more modern. Its benchmark index is Nifty 50 (50 large companies). Both exchanges are regulated by SEBI. Most trading happens on NSE because of higher liquidity. When you buy a stock, it is listed on one or both exchanges — companies like Reliance, TCS, Infosys are listed on both.",
+    "keywords": ["NSE", "BSE", "stock exchange", "Sensex", "Nifty 50", "Bombay Stock Exchange", "National Stock Exchange"]
+  },
+  {
+    "id": "stock_002",
+    "domain": "stock_market",
+    "language": "en",
+    "title": "How to Read Stock Fundamentals",
+    "content": "Fundamental analysis means checking a company's financial health before buying its stock. Key metrics: P/E Ratio (Price to Earnings) — how much you pay for ₹1 of earnings. A P/E of 20 means you pay ₹20 for ₹1 of profit. Lower P/E can mean undervalued but check the industry average. ROE (Return on Equity) — how efficiently the company uses shareholder money. Above 15% is generally good. Debt to Equity Ratio — total debt divided by equity. Below 1 is safer. Revenue Growth — is the company growing its sales year over year? EPS (Earnings Per Share) — profit divided by number of shares.",
+    "keywords": ["P/E ratio", "ROE", "debt to equity", "EPS", "fundamental analysis", "stock analysis", "revenue growth"]
+  },
+  {
+    "id": "stock_003",
+    "domain": "stock_market",
+    "language": "en",
+    "title": "How an IPO Works in India",
+    "content": "An IPO (Initial Public Offering) is when a private company sells its shares to the public for the first time. The process: Company hires a merchant banker who files a DRHP (Draft Red Herring Prospectus) with SEBI. SEBI reviews and approves. Company announces price band (e.g., ₹400-420 per share). You apply using UPI through your Demat account during 3-day subscription window. If oversubscribed, shares are allotted by lottery. Shares list on NSE/BSE on listing day. IPO minimum investment is usually 1 lot (e.g., 35 shares at ₹420 = ₹14,700). Returns are not guaranteed — many IPOs list at a loss.",
+    "keywords": ["IPO", "initial public offering", "DRHP", "SEBI", "listing", "price band", "lot size", "UPI", "Demat"]
+  },
+  {
+    "id": "stock_004",
+    "domain": "stock_market",
+    "language": "en",
+    "title": "Nifty 50 Index — What It Is and Why It Matters",
+    "content": "Nifty 50 is an index of 50 of the largest and most liquid companies listed on NSE, representing about 13 sectors of the Indian economy. Companies like Reliance Industries, TCS, HDFC Bank, Infosys, ICICI Bank make up a large portion. When Nifty goes up, it means most large companies did well that day. You cannot buy Nifty directly, but you can buy Nifty 50 Index Funds or ETFs that track it. Over the last 20 years, Nifty 50 has given approximately 12-13% CAGR making it a reliable benchmark for long-term equity returns.",
+    "keywords": ["Nifty 50", "index", "NSE", "Nifty return", "CAGR", "ETF", "index fund", "benchmark"]
+  },
+  {
+    "id": "tax_001",
+    "domain": "taxation",
+    "language": "en",
+    "title": "Income Tax Slabs in India 2024-25 (New Regime)",
+    "content": "Under the New Tax Regime (default from FY 2023-24): Income up to ₹3 lakh — NIL tax. ₹3 lakh to ₹7 lakh — 5% tax. ₹7 lakh to ₹10 lakh — 10% tax. ₹10 lakh to ₹12 lakh — 15% tax. ₹12 lakh to ₹15 lakh — 20% tax. Above ₹15 lakh — 30% tax. Key benefit: Income up to ₹7 lakh has zero tax due to Section 87A rebate. No deductions like 80C or HRA are allowed under the new regime. For most salaried people earning below ₹7 lakh, new regime is better.",
+    "keywords": ["income tax slab", "new tax regime", "87A rebate", "tax 2024", "tax 2025", "income tax India", "zero tax 7 lakh"]
+  },
+  {
+    "id": "tax_002",
+    "domain": "taxation",
+    "language": "en",
+    "title": "Income Tax Slabs — Old Regime",
+    "content": "Under the Old Tax Regime: Income up to ₹2.5 lakh — NIL. ₹2.5 lakh to ₹5 lakh — 5%. ₹5 lakh to ₹10 lakh — 20%. Above ₹10 lakh — 30%. The old regime allows deductions: Section 80C (up to ₹1.5 lakh), HRA, standard deduction of ₹50,000, home loan interest under 24B (up to ₹2 lakh), and many more. Old regime is beneficial for people who have large deductions — like those paying high rent, home loan EMIs, or investing in ELSS, PPF, and NPS.",
+    "keywords": ["old tax regime", "income tax old", "80C deduction", "HRA", "standard deduction", "home loan deduction", "24B"]
+  },
+  {
+    "id": "tax_003",
+    "domain": "taxation",
+    "language": "en",
+    "title": "Section 80C — Complete List of Deductions",
+    "content": "Section 80C allows a deduction of up to ₹1.5 lakh from taxable income. Investments that qualify: ELSS mutual funds, PPF (Public Provident Fund), EPF (Employee Provident Fund — employer contributes too), NSC (National Savings Certificate), 5-year tax-saving FD, Sukanya Samriddhi Yojana (for girl child), NPS Tier 1. Expenses that qualify: Life insurance premiums, children's tuition fees (up to 2 children), principal repayment of home loan. All of these combined cannot exceed ₹1.5 lakh total. This deduction is only available under the Old Tax Regime.",
+    "keywords": ["80C", "section 80C", "tax deduction", "PPF", "ELSS", "EPF", "NSC", "tax saving", "1.5 lakh"]
+  },
+  {
+    "id": "tax_004",
+    "domain": "taxation",
+    "language": "en",
+    "title": "Capital Gains Tax — LTCG and STCG on Stocks and Mutual Funds",
+    "content": "Capital gains tax applies when you sell stocks or mutual funds at a profit. For EQUITY stocks and equity mutual funds: Short-Term Capital Gains (STCG) — if held less than 1 year, taxed at 20%. Long-Term Capital Gains (LTCG) — if held more than 1 year, gains above ₹1.25 lakh per year are taxed at 12.5% (no indexation). For DEBT mutual funds bought after April 1, 2023: gains are taxed as per your income tax slab, regardless of holding period. For GOLD ETFs and international funds — same as debt fund rules. Always account for tax before calculating actual returns.",
+    "keywords": ["LTCG", "STCG", "capital gains tax", "equity tax", "mutual fund tax", "10% LTCG", "1 lakh exemption", "debt fund tax"]
+  },
+  {
+    "id": "tax_005",
+    "domain": "taxation",
+    "language": "en",
+    "title": "ITR — Which Form to File",
+    "content": "ITR (Income Tax Return) must be filed by July 31 every year for individuals. Which form to use: ITR-1 (Sahaj) — for salaried employees with income up to ₹50 lakh, one house property, and no business income. ITR-2 — for those with capital gains from stocks/mutual funds or foreign income. ITR-3 — for business owners and freelancers. ITR-4 (Sugam) — for those under presumptive taxation scheme. You can file for free on the Income Tax portal at incometax.gov.in. Form 26AS and AIS show all your income and TDS details automatically.",
+    "keywords": ["ITR", "income tax return", "ITR-1", "ITR-2", "ITR filing", "July 31", "incometax.gov.in", "AIS", "26AS"]
+  },
+  {
+    "id": "tax_006",
+    "domain": "taxation",
+    "language": "te",
+    "title": "Income Tax అంటే ఏమిటి — తెలుగులో",
+    "content": "Income Tax అంటే మీరు సంపాదించిన దాని మీద government కి చెల్లించే పన్ను. భారతదేశంలో వార్షిక ఆదాయం ₹7 లక్షల కంటే తక్కువ ఉంటే New Tax Regime లో పన్ను చెల్లించాల్సిన అవసరం లేదు. ₹7 లక్షల పైన ఉంటే, మీ income slab బట్టి 5%, 10%, 15%, 20%, లేదా 30% పన్ను వస్తుంది. Employer మీ salary నుండి TDS కట్ చేస్తారు. Year end లో ITR file చేయడం mandatory. March 31 లోగా investments చేయడం వల్ల tax తగ్గించుకోవచ్చు.",
+    "keywords": ["income tax Telugu", "tax Telugu", "7 lakh tax free Telugu", "ITR Telugu", "పన్ను"]
+  },
+  {
+    "id": "banking_001",
+    "domain": "banking",
+    "language": "en",
+    "title": "Fixed Deposit — Everything You Need to Know",
+    "content": "A Fixed Deposit (FD) is when you deposit a lump sum with a bank for a fixed period at a guaranteed interest rate. Key features: Interest rates currently range from 6.5% to 7.5% per year depending on bank and tenure. Senior citizens get 0.25% to 0.5% extra. FD up to ₹5 lakh per bank per depositor is insured by DICGC (government body). Interest earned on FD is fully taxable as per your income slab. TDS is deducted if interest exceeds ₹40,000 per year (₹50,000 for seniors). Best tenures for high rates are usually 1-3 years. Small finance banks like AU Bank, Jana Bank often offer 0.5-1% more than large banks.",
+    "keywords": ["FD", "fixed deposit", "interest rate", "DICGC", "TDS on FD", "senior citizen FD", "bank FD", "small finance bank"]
+  },
+  {
+    "id": "banking_002",
+    "domain": "banking",
+    "language": "en",
+    "title": "RBI — Role and Key Policies",
+    "content": "RBI (Reserve Bank of India) is India's central bank established in 1935. It controls monetary policy, manages currency, regulates banks, and controls inflation. Key tools: Repo Rate — the rate at which RBI lends money to commercial banks. When RBI raises repo rate, banks raise home loan and FD rates too. Currently (2024) repo rate is 6.5%. Reverse Repo Rate — rate at which banks park money with RBI. CRR (Cash Reserve Ratio) — percentage of deposits banks must keep with RBI as reserve. SLR (Statutory Liquidity Ratio) — percentage banks must keep in government securities. RBI's MPC (Monetary Policy Committee) meets every 2 months to review these rates.",
+    "keywords": ["RBI", "Reserve Bank of India", "repo rate", "monetary policy", "CRR", "SLR", "MPC", "inflation control"]
+  },
+  {
+    "id": "banking_003",
+    "domain": "banking",
+    "language": "en",
+    "title": "Government Bonds and T-Bills",
+    "content": "Government Securities (G-Secs) are bonds issued by the Indian government. They are the safest investment in India — backed by the government. Types: T-Bills (Treasury Bills) — short term (91 days, 182 days, 364 days), currently giving 6.8-7%. Government Bonds — long term (5, 10, 30 years), giving around 7-7.5%. State Development Loans (SDLs) — issued by state governments, giving 7.3-7.8%. You can invest in G-Secs through RBI Retail Direct portal (rdirect.rbi.org.in) completely free with no middleman. Minimum investment is ₹10,000. Interest (called coupon) is paid every 6 months.",
+    "keywords": ["government bonds", "T-bills", "treasury bills", "G-Secs", "RBI Retail Direct", "gilt funds", "SDL", "safe investment"]
+  },
+  {
+    "id": "banking_004",
+    "domain": "banking",
+    "language": "en",
+    "title": "Savings Account — High Interest Options in India",
+    "content": "A regular savings account gives 2.7% to 3.5% interest per year. But some banks offer much higher rates. Small finance banks like AU Small Finance Bank, Equitas, Jana Bank, and Ujjivan offer 6-7% on savings accounts. Digital banks like Fi Money and Jupiter offer 3-4% with better UX. DICGC insurance covers ₹5 lakh per depositor per bank. For your emergency fund, consider a high-yield savings account or liquid mutual fund (giving ~7% with same-day withdrawal) instead of a regular savings account. Never keep more than ₹5 lakh in any single bank.",
+    "keywords": ["savings account", "high interest savings", "AU Bank savings", "small finance bank", "DICGC", "liquid fund vs savings"]
+  },
+  {
+    "id": "crypto_001",
+    "domain": "crypto",
+    "language": "en",
+    "title": "Crypto Tax in India — 30% Flat Tax",
+    "content": "India taxes cryptocurrency and other Virtual Digital Assets (VDA) at a flat 30% on profits, regardless of income level or holding period. This came into effect from April 1, 2022. Additionally, 1% TDS is deducted on every crypto sale above ₹10,000. Losses from crypto CANNOT be set off against other income — you cannot use crypto losses to reduce your salary or FD income tax. No deductions are allowed except cost of acquisition. Example: If you buy Bitcoin for ₹1 lakh and sell for ₹1.5 lakh, you pay 30% on ₹50,000 profit = ₹15,000 tax. Report crypto income in ITR under Schedule VDA.",
+    "keywords": ["crypto tax India", "30% crypto tax", "VDA tax", "TDS crypto", "bitcoin tax India", "cryptocurrency India tax", "schedule VDA"]
+  },
+  {
+    "id": "crypto_002",
+    "domain": "crypto",
+    "language": "en",
+    "title": "Crypto Regulation in India — Current Status",
+    "content": "As of 2024, crypto is not banned in India but is not recognized as legal tender either. Crypto exchanges operating in India must register with the Financial Intelligence Unit (FIU) under the Prevention of Money Laundering Act (PMLA). KYC is mandatory for all crypto transactions. Major Indian exchanges include CoinDCX, WazirX, Zebpay, and Coindcx. International exchanges like Binance were blocked by the government in early 2024 for not complying with FIU registration. India is working toward a comprehensive Crypto regulation bill but none has been passed as of 2024. RBI remains cautious and has expressed concerns about financial stability.",
+    "keywords": ["crypto regulation India", "FIU", "PMLA", "KYC crypto", "crypto ban India", "WazirX", "CoinDCX", "crypto legal India"]
+  },
+  {
+    "id": "sebi_001",
+    "domain": "regulation",
+    "language": "en",
+    "title": "SEBI — What It Does and Why It Matters",
+    "content": "SEBI (Securities and Exchange Board of India) was established in 1992 to regulate India's securities market. SEBI's main roles: Protect investors from fraud and mis-selling. Regulate stock exchanges (NSE, BSE), mutual fund AMCs, stockbrokers, portfolio managers, and investment advisers. Investigate insider trading and market manipulation. Approve IPO filings (DRHP review). SEBI makes it mandatory for all investment advisers to be SEBI-registered (RIA). Any entity giving paid investment advice without SEBI registration is illegal. If you are cheated by a broker or AMC, you can file a complaint on SEBI's SCORES portal (scores.sebi.gov.in).",
+    "keywords": ["SEBI", "Securities Exchange Board India", "SCORES", "RIA", "investment adviser regulation", "SEBI complaint", "investor protection"]
+  },
+  {
+    "id": "sebi_002",
+    "domain": "regulation",
+    "language": "en",
+    "title": "IRDAI — Insurance Regulator",
+    "content": "IRDAI (Insurance Regulatory and Development Authority of India) regulates all insurance companies in India — life insurance, health insurance, and general insurance. Key rules: All insurance companies must maintain a solvency ratio of at least 1.5 (meaning they can pay claims). Claim settlement ratio is publicly disclosed — higher is better (above 95% is good). IRDAI banned insurance companies from offering guaranteed returns above a certain level. You can file insurance complaints on the Bima Bharosa portal or through Insurance Ombudsman. Term insurance and health insurance are regulated products — always buy from IRDAI-registered companies only.",
+    "keywords": ["IRDAI", "insurance regulator", "claim settlement ratio", "solvency ratio", "Bima Bharosa", "life insurance regulation", "term plan"]
+  },
+  {
+    "id": "macro_001",
+    "domain": "macroeconomics",
+    "language": "en",
+    "title": "GDP — What It Means and Why Indians Should Care",
+    "content": "GDP (Gross Domestic Product) is the total value of all goods and services produced in India in a year. India's GDP in 2024 is approximately $3.7 trillion, making it the 5th largest economy in the world. GDP growth rate measures how fast the economy is expanding. India's GDP growth in FY2024 was around 8.2%, one of the fastest among large economies. Why it matters to you as an investor: High GDP growth usually means more corporate profits, which means stock markets tend to do well. When GDP falls (recession), corporate earnings fall and stock markets drop.",
+    "keywords": ["GDP", "gross domestic product", "India GDP", "GDP growth", "economic growth", "recession India"]
+  },
+  {
+    "id": "macro_002",
+    "domain": "macroeconomics",
+    "language": "en",
+    "title": "Inflation in India — CPI and Its Impact",
+    "content": "Inflation means rising prices — your ₹100 today buys less next year. India measures inflation using CPI (Consumer Price Index) which tracks prices of food, fuel, clothing, and services. RBI's target is to keep CPI inflation between 2% and 6%. When inflation is high, RBI raises repo rate to cool spending. This increases loan EMIs and lowers stock markets. When inflation falls, RBI may cut rates, making loans cheaper and markets go up. Core inflation (excluding food and fuel) is around 3-4% in India. Food inflation is more volatile and affects common people most directly.",
+    "keywords": ["inflation", "CPI", "consumer price index", "RBI inflation target", "food inflation", "repo rate inflation", "purchasing power"]
+  },
+  {
+    "id": "macro_003",
+    "domain": "macroeconomics",
+    "language": "en",
+    "title": "Union Budget — How It Affects Your Money",
+    "content": "India's Union Budget is presented every year on February 1 by the Finance Minister. It outlines government income (taxes) and expenditure (spending). Key budget items that affect investors: Changes to income tax slabs directly affect take-home salary. Customs duty changes affect import-heavy industries like electronics and oil. Capital gains tax changes affect stock and mutual fund investors. Increase in capital expenditure (infra spending) boosts infrastructure stocks. Fiscal deficit target affects bond yields — higher deficit usually means higher yields. Budget announcements often cause short-term volatility in markets, but the long-term impact depends on actual policy implementation.",
+    "keywords": ["union budget", "budget 2024", "finance minister", "tax slab change", "capital gains budget", "fiscal deficit", "budget impact markets"]
+  },
+  {
+    "id": "macro_004",
+    "domain": "macroeconomics",
+    "language": "en",
+    "title": "FII and DII — Who Moves Indian Markets",
+    "content": "FII (Foreign Institutional Investors) are foreign entities like global funds and pension funds that invest in Indian stocks. When FIIs buy heavily, markets go up; when they sell (called FII outflow), markets fall. DII (Domestic Institutional Investors) are Indian entities like mutual funds, LIC, and insurance companies. DIIs often buy when FIIs sell, providing stability. FII flows are tracked daily on NSE website. When the US dollar strengthens, FIIs often pull money out of emerging markets like India. You can track FII/DII data free on NSE India website or moneycontrol.com. Long-term retail investors should not react to short-term FII movements.",
+    "keywords": ["FII", "DII", "foreign institutional investor", "FII outflow", "FII buying", "market movement", "rupee dollar"]
+  },
+  {
+    "id": "loan_001",
+    "domain": "loans_credit",
+    "language": "en",
+    "title": "Home Loan — Complete Guide for First-Time Buyers",
+    "content": "A home loan lets you buy a house by paying EMIs over 10-30 years. Current home loan interest rates are around 8.5-9.5% per year. Key factors: Down payment — you must pay 10-20% of property value yourself; bank finances the rest. EMI calculation: For a ₹50 lakh loan at 9% for 20 years, EMI is approximately ₹45,000 per month. Total interest paid over 20 years would be around ₹58 lakh — more than the loan itself. Tax benefits: Principal repayment deduction under 80C (up to ₹1.5 lakh), interest deduction under Section 24B (up to ₹2 lakh for self-occupied property). Always compare offers from at least 3 banks before choosing.",
+    "keywords": ["home loan", "housing loan", "EMI calculation", "down payment", "home loan interest rate", "section 24B", "home loan tax benefit"]
+  },
+  {
+    "id": "loan_002",
+    "domain": "loans_credit",
+    "language": "en",
+    "title": "CIBIL Score — Understanding Your Credit Score",
+    "content": "CIBIL score is a 3-digit number between 300 and 900 that represents your creditworthiness. Above 750 is excellent — you get loans at best rates. 700-750 is good. 650-700 is fair — higher interest rates apply. Below 650 is poor — loan rejection is likely. What affects your score: Payment history (35%) — never miss EMIs. Credit utilization (30%) — use less than 30% of your credit card limit. Length of credit history (15%) — older accounts help. Credit mix (10%) — having both secured (home loan) and unsecured (credit card) credit helps. New credit inquiries (10%) — avoid applying for many loans simultaneously. Check your CIBIL score free once a year at cibil.com.",
+    "keywords": ["CIBIL score", "credit score", "750 CIBIL", "credit history", "loan approval", "creditworthiness", "cibil.com"]
+  },
+  {
+    "id": "loan_003",
+    "domain": "loans_credit",
+    "language": "en",
+    "title": "Mudra Loan — Government Loan for Small Businesses",
+    "content": "Mudra (Micro Units Development and Refinance Agency) loans are government-backed loans for small businesses and self-employed individuals. Three categories: Shishu — up to ₹50,000 for very small businesses just starting. Kishor — ₹50,001 to ₹5 lakh for established small businesses. Tarun — ₹5 lakh to ₹10 lakh for growing businesses. No collateral required for Mudra loans. Interest rates are set by individual banks but are generally lower than personal loans. You apply through any bank, NBFC, or microfinance institution. No application fee. Loans can be used for manufacturing, trading, or service businesses. Apply at udyamimitra.in.",
+    "keywords": ["Mudra loan", "PMMY", "small business loan", "Shishu Mudra", "Kishor Mudra", "Tarun Mudra", "government loan", "no collateral loan"]
+  },
+  {
+    "id": "loan_004",
+    "domain": "loans_credit",
+    "language": "en",
+    "title": "EMI — How It Is Calculated",
+    "content": "EMI (Equated Monthly Instalment) is the fixed monthly payment for a loan. Formula: EMI = P × r × (1+r)^n / ((1+r)^n - 1), where P = principal loan amount, r = monthly interest rate (annual rate ÷ 12), n = number of months. Example: ₹10 lakh loan, 10% annual interest, 5 years (60 months). Monthly rate = 10%/12 = 0.833%. EMI ≈ ₹21,247 per month. Total amount paid = ₹21,247 × 60 = ₹12.75 lakh. Total interest = ₹2.75 lakh. Use any free EMI calculator online. Prepaying your loan reduces interest significantly — even one extra EMI per year saves a lot.",
+    "keywords": ["EMI", "EMI calculation", "loan EMI", "prepayment", "equated monthly instalment", "EMI formula", "loan calculator"]
+  },
+  {
+    "id": "fp_001",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Asset Allocation — The Most Important Investment Decision",
+    "content": "Asset allocation means dividing your money among different types of investments — equity, debt, gold, and real estate. A simple rule by age: subtract your age from 100 to get equity allocation. At age 25, put 75% in equity and 25% in debt. At age 50, put 50% in equity and 50% in debt. Why it matters: different assets perform differently in different market conditions. When stocks fall, bonds often hold or rise. Gold usually rises during crises. Diversification across assets reduces overall risk without necessarily reducing overall returns. Review and rebalance your asset allocation once a year.",
+    "keywords": ["asset allocation", "equity debt allocation", "portfolio allocation", "age-based allocation", "rebalancing", "diversification"]
+  },
+  {
+    "id": "fp_002",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Retirement Planning — How Much Do You Need",
+    "content": "Retirement planning should start as early as possible. To calculate retirement corpus: First, estimate monthly expenses at retirement (account for inflation). If you spend ₹50,000/month today, in 25 years at 6% inflation it will be ₹2.15 lakh/month. Multiply by 300 (25 years × 12 months) for rough corpus needed = ₹6.45 crore. The 4% rule says you can withdraw 4% of corpus per year safely. NPS (National Pension System) is a great retirement tool — tax benefits under 80C and additional ₹50,000 under 80CCD(1B). If you start a SIP of ₹5,000/month at age 25 in equity funds returning 12%, by age 60 you'll have ₹3.2 crore.",
+    "keywords": ["retirement planning", "retirement corpus", "NPS", "4% rule", "pension", "retirement fund India", "SIP for retirement"]
+  },
+  {
+    "id": "fp_003",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "NPS — National Pension System Explained",
+    "content": "NPS is a government-sponsored retirement savings scheme open to all Indian citizens between 18-70 years. Two types: Tier 1 (mandatory, locked till 60) and Tier 2 (voluntary, no lock-in, no tax benefit). Tax benefits: 80C up to ₹1.5 lakh + additional ₹50,000 under 80CCD(1B) = total ₹2 lakh deduction (only under old regime). On maturity (age 60): 60% can be withdrawn tax-free, 40% must be used to buy annuity (monthly pension). You can choose your own fund allocation between Equity (E), Corporate Bonds (C), and Government Securities (G). Open NPS account at enps.nsdl.com for free. Minimum annual contribution is ₹1,000.",
+    "keywords": ["NPS", "national pension system", "80CCD", "NPS tax benefit", "NPS withdrawal", "retirement India", "PRAN", "annuity NPS"]
+  },
+  {
+    "id": "fp_004",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "PPF — Public Provident Fund — Safe Long Term Savings",
+    "content": "PPF is a government-backed savings scheme with a 15-year lock-in period. Current interest rate is 7.1% per year (reviewed quarterly by government). It follows EEE (Exempt-Exempt-Exempt) tax structure — investment is deductible under 80C, interest earned is tax-free, and maturity amount is tax-free. Maximum investment is ₹1.5 lakh per year. Minimum is ₹500. You can open PPF at any post office or major bank. Partial withdrawal is allowed from year 7. Loan against PPF is available from year 3. After 15 years, you can extend in blocks of 5 years. Best suited for extremely conservative investors or as the debt portion of your portfolio.",
+    "keywords": ["PPF", "public provident fund", "7.1% PPF", "EEE tax", "15 year lock in", "PPF withdrawal", "post office PPF", "safe investment"]
+  },
+  {
+    "id": "fp_005",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Term Insurance — Why Every Earning Member Needs It",
+    "content": "Term insurance is pure life cover — if you die during the policy period, your family gets a large sum (sum assured). It is the cheapest and most important insurance to buy. A 25-year-old can get ₹1 crore cover for just ₹8,000-12,000 per year. Rule of thumb: cover should be at least 10-15 times your annual income. Buy term insurance if you have dependents — spouse, children, parents. Do NOT mix insurance with investment — avoid ULIPs and endowment plans which give poor returns and poor coverage. Buy online directly from insurer's website to get lowest premium. Choose a company with claim settlement ratio above 95%.",
+    "keywords": ["term insurance", "life insurance", "term plan", "sum assured", "insurance premium", "claim settlement ratio", "ULIP avoid", "1 crore cover"]
+  },
+  {
+    "id": "fp_006",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Health Insurance — How to Choose the Right Plan",
+    "content": "Health insurance covers hospitalization expenses. The minimum cover recommended is ₹5-10 lakh for an individual, ₹10-15 lakh for a family floater. Key things to check: Network hospitals in your city. Pre-existing disease waiting period (ideally 2 years or less). Co-payment clause (if any percentage you must pay yourself — avoid plans with high co-pay). Room rent limit — some plans cap room rent which reduces reimbursement. Super top-up plans let you increase cover cheaply — buy a ₹5 lakh base plan + ₹20 lakh super top-up for high medical bills. Do not rely only on employer health insurance — buy a personal plan too. Premiums under 80D qualify for tax deduction.",
+    "keywords": ["health insurance", "mediclaim", "family floater", "network hospital", "super top up", "80D deduction", "pre-existing disease", "co-payment"]
+  },
+  {
+    "id": "compound_001",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Power of Compounding — The 8th Wonder of the World",
+    "content": "Compounding means earning returns on your returns. Example: ₹1 lakh invested at 12% per year. After 1 year: ₹1.12 lakh. After 2 years: ₹1.25 lakh. After 10 years: ₹3.1 lakh. After 20 years: ₹9.6 lakh. After 30 years: ₹29.96 lakh — nearly 30 times! The earlier you start, the more powerful it is. If Rahul invests ₹5,000/month from age 25 to 35 (10 years, total ₹6 lakh) and stops, and Priya invests ₹5,000/month from age 35 to 60 (25 years, total ₹15 lakh) — at 12% returns, Rahul ends up with MORE money despite investing less because he started earlier. Time in market beats timing the market.",
+    "keywords": ["compounding", "power of compounding", "compound interest", "long term investing", "start early", "8th wonder", "wealth creation"]
+  },
+  {
+    "id": "beginner_001",
+    "domain": "personal_finance",
+    "language": "en",
+    "title": "How to Start Investing in India — Step by Step",
+    "content": "Step 1: Open a savings bank account (any nationalized bank). Step 2: Get your PAN card — apply online at onlineservices.nsdl.com, free for digital PAN. Step 3: Complete KYC — you need PAN, Aadhaar, and bank account. Step 4: Open a Demat and Trading account on Zerodha, Groww, or Upstox (all free account opening). Step 5: Start a SIP of ₹500-₹1,000 per month in a Nifty 50 Index Fund. Step 6: Build emergency fund — 3 months expenses in savings or liquid fund. Step 7: Buy term insurance if you have dependents. That's it. Do not try to pick stocks initially. Index funds for first 1-2 years until you understand markets better.",
+    "keywords": ["how to start investing", "beginner investing India", "first investment India", "Zerodha", "Groww", "PAN card", "Demat account", "index fund start"]
+  },
+  {
+    "id": "beginner_002",
+    "domain": "personal_finance",
+    "language": "en",
+    "title": "Free Tools Every Indian Investor Should Use",
+    "content": "Free tools for Indian investors: Groww app — SIP in mutual funds, free Demat account, zero brokerage on mutual funds. Zerodha Coin — direct mutual funds at zero commission. MF Central (mfcentral.com) — see all your mutual fund investments in one place. CAMS and KFintech — official RTAs for checking and redeeming mutual funds. Moneycontrol — free portfolio tracker, news, and research. Screener.in — free stock fundamental analysis tool used by serious investors. RBI Retail Direct (rdirect.rbi.org.in) — buy government bonds directly free. Income Tax Portal (incometax.gov.in) — free ITR filing. Value Research Online (valueresearchonline.com) — free mutual fund comparison and ratings.",
+    "keywords": ["free investing tools", "Groww", "Zerodha Coin", "MF Central", "Screener.in", "moneycontrol", "RBI Retail Direct", "Value Research"]
+  },
+  {
+    "id": "gold_001",
+    "domain": "financial_planning",
+    "language": "en",
+    "title": "Gold as an Investment in India",
+    "content": "Indians have traditionally invested in physical gold but digital gold is smarter. Options: Sovereign Gold Bond (SGB) — best option, issued by RBI, gives 2.5% annual interest on top of gold price appreciation, no storage risk, tax-free on maturity if held 8 years. Gold ETF — buy/sell gold like a stock on exchange, stored electronically, expense ratio 0.5-1%. Digital Gold on apps — convenient but not regulated, risky. Physical gold — high making charges (10-25%), theft risk, not recommended for investment. Keep gold at 5-10% of portfolio as a hedge. SGB new series are issued periodically — check RBI website for dates.",
+    "keywords": ["gold investment India", "sovereign gold bond", "SGB", "gold ETF", "digital gold", "physical gold vs SGB", "gold tax India", "RBI gold bond"]
+  },
+  {
+    "id": "disclaimer_001",
+    "domain": "general",
+    "language": "en",
+    "title": "SEBI Disclaimer",
+    "content": "SEBI Disclaimer: All information provided by FinanceGPT is for educational and informational purposes only. It does not constitute investment advice, portfolio management, or a solicitation to buy or sell any security, mutual fund, or financial instrument. Mutual fund investments are subject to market risks. Past performance is not indicative of future results. Please read all scheme-related documents carefully before investing. Consult a SEBI-registered Investment Adviser (RIA) for personalized financial advice. FinanceGPT is not a registered investment adviser and does not provide stock tips, F&O signals, or personalized portfolio recommendations.",
+    "keywords": ["disclaimer", "SEBI disclaimer", "investment advice disclaimer", "not financial advice", "RIA"]
+  }
+]
