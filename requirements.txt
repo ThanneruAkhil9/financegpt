@@ -16,7 +16,6 @@ qdrant-client==1.8.0
 
 # ── Embeddings (multilingual, runs locally, free) ────────────
 sentence-transformers==2.7.0
-torch==2.2.1+cpu --find-links https://download.pytorch.org/whl/torch_stable.html          # needed by sentence-transformers
 
 # ── HTTP Requests (frontend → backend) ───────────────────────
 requests==2.31.0
